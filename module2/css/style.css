@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Grenze', serif;
+	font-size: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 25px;
+	width: 100px;
+	text-align: center;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.fighter {
+	background-color: #6FADD7;
+}
+
+.wizard {
+	background-color: #F7C574;
+}
+
+.rogue {
+	background-color: #C01D0C;
+	color: #FFFFFF;
+}
+
+p {
+	background-color: #DADAE1;
+	padding: 40px 15px 15px 15px;
+}
+
+div {
+	position: relative;
+}
+
+@media (min-width: 992px) {
+	.desktop1, .desktop2, .desktop3 {
+		float: left;
+		border: 1px solid black;
+		width: 32%;
+	}
+	.desktop1 {
+		margin-right: 1%;
+		margin-left: 1%;
+		margin-bottom: 1%;
+	}
+	.desktop2 {
+		margin-right: 1%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.tablet1, .tablet2, .tablet3 {
+		float: left;
+		border: 1px solid black;
+	}
+	.tablet1 {
+		margin-left: 1%;
+		margin-right: 1%;
+		width: 48.5%;
+	}
+	.tablet2 {
+		width: 48.5%;
+	}
+	.tablet3 {
+		clear: left;
+		margin: 1%;
+	}
+}
+
+@media (max-width: 767px) {
+	.phone {
+		float: left;
+		border: 1px solid black;
+		margin: 0 1% 1% 1%;
+	}
+}
