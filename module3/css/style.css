@@ -1,0 +1,35 @@
+#header-nav {
+	background-color: #a2a5aa;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand h1 {
+	color: #000000;
+	font-weight: bold;
+	text-shadow: 1px 1px 5px white;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -42px;
+}
+#nav-list a {
+	text-align: center;
+	color: black;
+}
+#nav-list a:hover {
+  background: #d8dde6;
+}
+
+p.textblock {
+	background-color: #a2a5aa;
+	padding: 20px;
+}
